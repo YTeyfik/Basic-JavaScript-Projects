@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col-md-12">
+                <button id="getEmployee" class="btn btn-primary">Get Employee</button>
+                <div id="loading">
+                    <img src="1.gif" alt="">
+                </div>
+                <table class="table table-bordered table-striped mt-3">
+                    <thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Age</th>
+                            <th>Retired</th>
+                        </tr>
+                    </thead>
+                    <tbody id="employees">
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-12">
+                <form>
+                    <div class="input-group mb-3">
+                        <input type="text" id="postid" class="form-control" aria-describedby="getData" placeholder="Type an Id">
+                        <div class="input-group-append">
+                            <button type="button" id="getOne" class="btn btn-primary">Get One</button>
+                            <button type="button" class="btn btn-success" id="getAll">Get All</button>
+                            <button type="button" class="btn btn-warning" id="postData">Post</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="loading">
+                    <img src="1.gif" alt="">
+                </div>
+                <div id="results"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

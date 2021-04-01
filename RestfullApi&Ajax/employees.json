@@ -1,0 +1,26 @@
+[
+        {
+         "firstname":"Teyfik",
+         "lastname":"Yalav",
+         "age":25,
+         "retired":false
+        },
+        {
+            "firstname":"Metin",
+            "lastname":"Yalav",
+            "age":51,
+            "retired":true
+        },
+        {
+            "firstname":"Arda",
+            "lastname":"Yalav",
+            "age":14,
+            "retired":false
+        },
+        {
+            "firstname":"Hatice",
+            "lastname":"Yalav",
+            "age":47,
+            "retired":true
+        }
+]
